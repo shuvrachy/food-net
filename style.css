@@ -1,0 +1,161 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: tomato;
+  }
+  
+  li {
+    float: left;
+    padding-left: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: lightsalmon;
+  }
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;    
+}
+
+h1{font-size: 50px;
+color: grey;
+line-height: 0.5;
+word-spacing: normal;
+
+}
+.green-color{
+    color: green;
+}
+p{
+  font-size: 22px;
+  margin-top: 65px;
+  margin-bottom: 60px;
+} 
+h2{
+    font-size: 35px;
+    color: grey;
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.top-space{
+    margin-top: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+ .half-width img {
+    width: 80%;
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange,tomato);
+    padding: 18px 40px;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.about-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ .about-half-width{
+    width: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+ }
+
+ .about-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 8%;
+}
+
+.recipe-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+.recipe h1 {
+    text-align: center;
+  }
+  .recipe p {
+    width: 50%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-left: 390px;
+    text-align: justify;
+  }
+
+.recipe-item {
+    width: 75%;
+    height: 520px;
+    min-height: fit-content;
+    margin: auto;
+    margin-top: 0;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  .recipe-item img {
+    height: 270px;
+  }
+  .recipe-item p {
+    padding-top: 5px;
+    font-size: 20px;
+    margin: 0;
+    color: grey;
+  }
+
+  .social h2{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+  .social a{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 50px;
+    margin-left: 200px;
+}
+
+  footer{
+      width:100%;
+      background: black;
+      height: 200px;
+      text-align: center;
+  }
+footer p{
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+footer h2{
+    padding-top: 20px;
+    text-align:center;
+}
+
+
